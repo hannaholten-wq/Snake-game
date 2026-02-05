@@ -2,8 +2,8 @@
 //-----------------------------------------------------------------------------------------
 //----------- Import modules, js files  ---------------------------------------------------
 //-----------------------------------------------------------------------------------------
-import { TSprite } from "../lib/libSprite.js";
-import { TPoint } from "../lib/lib2D.js";
+import { TSprite } from "./lib/libSprite.js";
+import { TPoint } from "./lib/lib2D.js";
 import { cvs, imgSheet, SheetData, EDirection, gameBoard, gameBoardSize, EBoardCellInfoType, gameProps, TBoardCell, gameStatus, EGameStatus , snakeSelfCollision, gainSpeed} from "./game.js";
 import { moveSnakeElement, ESpriteIndex } from "./snake_lib.js";
 import { TBait } from "./bait.js";
@@ -168,4 +168,5 @@ export function TSnakeTail(aBoardCell) {
   }
   };
 } // End of class TSnakeTail
+
 
