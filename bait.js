@@ -1,8 +1,19 @@
 "use strict";
 import { TSprite } from "./lib/libSprite.js";
 import { TPoint } from "./lib/lib2D.js";
-import { cvs, imgSheet, SheetData, EDirection, gameBoard, gameBoardSize, EBoardCellInfoType, TBoardCell, gainSpeed } from "./game.js";
-import { gameProps } from "./game.js";
+import {
+  cvs,
+  imgSheet,
+  SheetData,
+  EDirection,
+  gameBoard,
+  gameBoardSize,
+  EBoardCellInfoType,
+  TBoardCell,
+  gainSpeed,
+  gameProps
+} from "./game.js";
+
 
 export function TBait(aBoardCell) {
     let boardCell = aBoardCell;
@@ -40,6 +51,7 @@ export function TBait(aBoardCell) {
 
    }
 }
+
 
 
 
