@@ -3,7 +3,7 @@
 import { TBait } from "./bait.js"; // Importerer TBait-klassen fra bait.js-filen
 import { TSnakeHead, TSnakeBody, TSnakeTail } from "./snake.js"; // Importerer TSnakeHead, TSnakeBody, og TSnakeTail-klassene fra snake.js-filen
 import { TSprite, TSpriteButton , TSpriteNumber } from "../lib/libSprite.js";
-import { TSinesWave } from "../lib/lib2D.js";
+import { TSinesWave } from "./lib/lib2D.js";
 
 //-----------------------------------------------------------------------------------------
 //----------- variables and object --------------------------------------------------------
@@ -380,3 +380,4 @@ function keydown(aEvent) { //Tastene for og bevege slangen
       break;
   }
 }
+
