@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title> Snake </title> <!--endret fra Flappy Bird til Snake-->
+    <style>
+      .prevent-select {
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+      }
+    </style>
+  </head>
+  <body class="prevent-select" style="zoom: 1;">
+    <canvas id="cvs" style="background-color: #f7e6c8"></canvas> <!--bytta bakgrunnsfarge-->
+    <script type="module">
+      "use strict";
+      import * as game from "./game.js"
+      document.addEventListener("DOMContentLoaded", game.init);
+    </script>
+  </body>
+</html>
