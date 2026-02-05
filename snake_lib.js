@@ -1,4 +1,4 @@
-import { SheetData, EDirection, gameBoard} from "./game.js";
+import { SheetData, EDirection, gameBoard } from "./game.js";
 
 export const ESpriteIndex = {UR: 0, LD: 0, RU: 1, DR: 1, DL: 2, LU: 2, RD: 3, UL: 3, RL: 4, UD: 5};
 
@@ -117,4 +117,5 @@ function moveSnakeTail(aDirection, aBoardCell){
             break;
     }
     return  gameBoard[aBoardCell.row][aBoardCell.col].direction;
+
 }
